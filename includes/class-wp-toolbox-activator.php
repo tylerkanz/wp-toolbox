@@ -30,7 +30,7 @@ class Wp_Toolbox_Activator {
 	 * @since    1.0.0
 	 */
 	public static function activate() {
-
+		include('database/db-auto-table.php');
 	}
 
 }
